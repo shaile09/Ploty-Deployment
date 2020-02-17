@@ -56,7 +56,7 @@ function buildCharts(sample) {
             orientation: "h",
             type: "bar",
             marker: {
-            color: "Pink",
+            color: "Green",
             }
         };
         var data = [tracedata];
@@ -74,7 +74,7 @@ function buildCharts(sample) {
             mode: 'markers',
             marker: {
                 color: otu_ids,
-                colorscale: 'Picnic',
+                colorscale: 'Greens',
                 opacity: 0.8,
                 size: samplevalues,
                 sizemode: 'diameter'
@@ -135,17 +135,16 @@ function buildGauge(wfreq) {
             marker: {
                 //Specify the colors for this graph 
                 colors: [
-                    "rgba(48,41,91, 0)",
-                    "rgba(69,117,180, .5)",
-                    "rgba(116,173,209, .5)",
-                    "rgba(171,217,233, .5)",
-                    "rgba(224,243,248, .5)",
-                    "rgba(254,224,144, .5)",
-                    "rgba(253,174,97, .5)",
-                    "rgba(244,109,67, .5)",
-                    "rgba(215,48,39, .5)",
-                    "rgba(165,0,38, 0)",
-                    "rgba(0,157,38, 0)",
+                    "rgba(0, 105, 11, .5)",
+                    "rgba(10, 120, 22, .5)",
+                    "rgba(14, 127, 0, .5)",
+                    "rgba(110, 154, 22, .5)",
+                    "rgba(170, 202, 42, .5)",
+                    "rgba(202, 209, 95, .5)",
+                    "rgba(210, 206, 145, .5)",
+                    "rgba(232, 226, 202, .5)",
+                    "rgba(240, 230, 215, .5)",
+                    "rgba(255, 255, 255, 0)",
                 ]
             },
         labels: ["8-9", "7-8", "6-7", "5-6", "4-5", "3-4", "2-3", "1-2", "0-1", ""],
